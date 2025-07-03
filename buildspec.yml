@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing nothing here – setup happens in EC2 via hooks"
+  build:
+    commands:
+      - echo "Build step not needed for static site"
+artifacts:
+  files:
+    - index.html
+    - appspec.yml
+    - scripts/install_nginx.sh
+    - scripts/install_node_exporter.sh
+  discard-paths: no
