@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps CI/CD Pipeline Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #232f3e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 30px;
+      text-align: center;
+    }
+    .box {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      max-width: 700px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .status {
+      font-size: 1.2rem;
+      color: green;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #e3e3e3;
+      margin-top: 30px;
+    }
+    code {
+      background: #eef;
+      padding: 3px 6px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DevOps CI/CD Demo Project</h1>
+    <p>Automated Deployment with AWS CodePipeline + CodeDeploy + EC2</p>
+  </header>
+
+  <main>
+    <div class="box">
+      <h2>Welcome!</h2>
+      <p>This webpage is hosted on an EC2 instance and automatically updated using a GitHub-triggered AWS CodePipeline.</p>
+      
+      <p><strong>Project Components:</strong></p>
+      <ul style="text-align:left; max-width: 400px; margin: 0 auto;">
+        <li>✔️ Static Website (HTML)</li>
+        <li>✔️ GitHub as Source Repository</li>
+        <li>✔️ CodePipeline for CI/CD</li>
+        <li>✔️ CodeDeploy for deployment to EC2</li>
+      </ul>
+
+      <p class="status">🚀 Deployment Status: SUCCESS</p>
+      <p><small>Last updated: <code><!-- Add timestamp dynamically here if needed --></code></small></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Created by Prabhat Sharma • July 2025</p>
+  </footer>
+</body>
+</html>
